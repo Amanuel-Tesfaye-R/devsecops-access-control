@@ -1,0 +1,23 @@
+{
+  "name": "dinedesk-api",
+  "version": "1.0.0",
+  "description": "DineDesk REST API with JWT authentication, RBAC/permission checks, branch-level authorization, and secure configuration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand",
+    "lint": "eslint src tests"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
